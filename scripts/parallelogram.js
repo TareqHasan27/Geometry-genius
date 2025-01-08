@@ -1,10 +1,11 @@
-function calculateRectangleArea() {
-    const length = getInputById('rectangle-length');
-    const width = getInputById('rectangle-width');
+function calculateParallelogramArea() {
+    const baseTriangle = getInputById('parallelogram-base');
+    const heightTriangle = getInputById('parallelogram-height')
     
-    const Area = width * length;
-    setInputText('rectangle-area' , Area);
+    const Area = heightTriangle * baseTriangle;
+    setInputText('parallelogram-area' , Area);
 }
+
 
 // function getInputById(inputId) {
 //     const inputField = document.getElementById(inputId);
